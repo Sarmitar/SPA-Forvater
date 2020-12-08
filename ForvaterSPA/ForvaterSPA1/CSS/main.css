@@ -1,0 +1,212 @@
+﻿/*Стиль навигации*/
+.navbar {
+    background: #F97300;
+}
+
+.nav-link, .navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin-right: 1em !important;
+}
+
+    .nav-link:hover {
+        background: #f4f4f4;
+        color: #f97300;
+    }
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    background: #fff !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/*Стиль хедера*/
+.header {
+    position: relative;
+    background-image: url('../images/headerback.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+/*Стиль картинки*/
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+/*Стиль Кнопки в Хедере*/
+.my-button {
+    background-color: #F97300;
+    color: #fff;
+    border-color: #fff;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+/*Ховер этой кнопки при переключении*/
+    .my-button:hover {
+        background-color: #FF8C00;
+    }
+
+/*Сделано, что бы тело сайта не убегало не пойми куда..*/
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+/*Чуть сероватый background страницы*/
+body {
+    background-color: #F1F1F1;
+}
+
+/*Стиль дескрипшена о компании*/
+.description {
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+
+    .description h1 {
+        color: #F97300;
+    }
+
+    .description p {
+        color: #666;
+        font-size: 20px;
+        width: 50%;
+        line-height: 1.5;
+    }
+
+    .description button {
+        border: 1px solid #F97300;
+        background: #F97300;
+        color: #fff;
+    }
+
+
+/*Стилизация текста рассказа о компании в дискрипшене*/
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+}
+
+    .about h1 {
+        color: #F97300;
+        margin: 2em;
+    }
+
+    .about img {
+        text-align: center;
+        max-height: 600px;
+        height: 100%;
+        width: 100%;
+        max-width: 600px;
+        border-radius: 50%
+    }
+
+    .about .text-justify {
+        display: block;
+        color: #888;
+        position: absolute;
+        left: 115px;
+    }
+
+    .about .desc {
+        padding: 2em;
+        border-left: 4px solid #10828C;
+    }
+
+        .about .desc h3 {
+            color: #10828C;
+        }
+
+        .about .desc p {
+            line-height: 2;
+            color: #888;
+        }
+/*Стилизация плашки с фото портфолио работ*/
+.portfolio {
+    margin: 4em 0;
+    position: relative;
+}
+
+    .portfolio h1 {
+        color: #F97300;
+        margin: 2em;
+    }
+
+    .portfolio img {
+        height: 15rem;
+        width: 100%;
+        margin: 1em;
+    }
+/*Стиль плашки с командой работников*/
+.team {
+    margin: 4em 0;
+    position: relative;
+}
+
+    .team h1 {
+        color: #F97300;
+        margin: 2em;
+    }
+
+    .team .item {
+        position: relative;
+    }
+
+    .team .des {
+        background: #F97300;
+        color: #fff;
+        text-align: center;
+        border-bottom-left-radius: 93%;
+        /*transition: .3s ease-in-out;*/
+    }
+/*Ховер плашки с командой разработки*/
+    .team .item:hover .des {
+        height: 100%;
+        background: #f973007d;
+        position: absolute;
+        width: 90%;
+        padding: 5em;
+        top: 0;
+        border-bottom-left-radius: 0;
+    }
+
+/*Стилизация социальных иконок*/
+.social-icons {
+    text-align: center;
+}
+
+    .social-icons li {
+        display: inline-block;
+        list-style-type: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+    }
+
+        .social-icons li a {
+            border-bottom: none;
+        }
+
+        .social-icons li img {
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+        }
+

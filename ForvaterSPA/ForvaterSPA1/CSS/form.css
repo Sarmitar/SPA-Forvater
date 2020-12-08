@@ -1,0 +1,80 @@
+﻿/*Стилизация валидации заполнения формы*/
+.field-validation-error {
+    color: #f00;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid #f00;
+    background-color: #fee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: #f00;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+/*Стилизация кнопок*/
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+.my-button {
+    background-color: #F97300;
+    color: #fff;
+    border-color: #fff;
+}
+
+    .my-button:hover {
+        background-color: #FF8C00;
+    }
+
+.The-button {
+    background-color: #F97300;
+    color: #fff;
+    border-color: #fff;
+}
+
+    .The-button:hover {
+        background-color: #FF8C00;
+    }
+
+/*Стилизация прозрачной подложки*/
+.transparent-background {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+body {
+    background: url('../images/BackgroundForm.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*Стилизация цвета фона(чуть серее белого)*/
+body {
+    background-color: #F1F1F1;
+}
+/*Стилизация формы отправки*/
+.thanks-container {
+    width: 1100px;
+    height: 752px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thanks-container {
+    width: 1100px;
+    height: 752px;
+}
